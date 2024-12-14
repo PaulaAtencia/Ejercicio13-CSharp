@@ -1,0 +1,19 @@
+﻿<Window x:Class="Ejercicio13_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio13_2"
+        mc:Ignorable="d"
+        Title="Formulario Interactivo" Height="350" Width="525">
+    <Grid>
+        <ComboBox x:Name="CategoriaComboBox" Width="200" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="224,47,0,0">
+            <ComboBoxItem Content="Categoría A"/>
+            <ComboBoxItem Content="Categoría B"/>
+        </ComboBox>
+        <Button Content="Acción 1" ToolTip="Realiza la acción 1" Width="124" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="34,167,0,0" Click="Accion1Button_Click"/>
+        <Button Content="Acción 2" ToolTip="Realiza la acción 2" Width="124" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="198,167,0,0" Click="Accion2Button_Click"/>
+        <Button Content="Acción 3" ToolTip="Realiza la acción 3" Width="134" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,167,0,0" Click="Accion3Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,55,0,0" TextWrapping="Wrap" Text="Selecciona una categoría" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
